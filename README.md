@@ -63,8 +63,6 @@ Agentropic is built on the following principles:
 
 We welcome contributions from developers interested in **AOP, multi-agent systems, and Rust**.
 
----
-
 **Contribution flow:**
 1. Fork the repository  
 2. Create a feature branch (`git checkout -b feature-name`)  
