@@ -50,15 +50,6 @@ Our mission is to empower developers to build intelligent, autonomous, modular, 
 
 Agentropic is organized into layers to separate concerns and provide modularity:
 
-┌─────────────────────────────┐
-│ agentropic-docs │ Tutorials, guides, and documentation
-│ agentropic-examples │ Reference applications and demos
-│ agentropic-deploy │ Deployment tools, pipelines, orchestration
-│ agentropic-systems │ Multi-agent system frameworks
-│ agentropic-runtime │ Runtime engine for executing agents
-│ agentropic-core │ Core libraries and abstractions for AOP
-└─────────────────────────────┘  
-
 - **agentropic-docs:** Tutorials and reference material for developers.
 - **agentropic-examples:** Sample applications showing practical use of agents. 
 - **agentropic-deploy:** Tools and pipelines to deploy agentic systems reliably. 
