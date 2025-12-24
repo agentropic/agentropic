@@ -1,6 +1,6 @@
 # Agentropic 🚀
 
-**Agentropic** is a GitHub organization focused on **Agent-Oriented Programming (AOP)** and the design, development, and deployment of **agentic applications** using the **Rust programming language**.
+**Agentropic** is an organization focused on **Agent-Oriented Programming (AOP)** and the design, development, and deployment of **agentic applications** using the **Rust programming language**.
 
 Our mission is to empower developers to build intelligent, autonomous, modular, and production-ready software systems through strong abstractions and safe, high-performance tooling.
 
