@@ -193,9 +193,9 @@ Based on decades of multi-agent systems research:
 Agentropic is ideal for:
 
 ### ⛓️ Blockchain Network
-- Agent-Oriented Programming(AOP)
-- Agentic App Development
-- Agentic App Deployment
+- Agent-oriented programming (AOP) for smart contracts
+- Agentic dApp development and deployment
+- Coordination and automation across blockchain nodes
 
 ### 💰 Financial Systems
 - Algorithmic trading with risk management
