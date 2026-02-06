@@ -1,30 +1,41 @@
-﻿[package]
+[package]
 name = "agentropic"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Agentropic Contributors"]
 license = "MIT OR Apache-2.0"
-description = "Agent-Oriented Programming in Rust - Batteries Included"
+description = "Comprehensive Rust framework for building intelligent, autonomous multi-agent systems"
 repository = "https://github.com/agentropic/agentropic"
 documentation = "https://docs.rs/agentropic"
-keywords = ["agents", "multi-agent", "aop", "bdi", "distributed"]
-categories = ["simulation", "concurrency", "asynchronous"]
+keywords = ["agents", "multi-agent", "AOP", "autonomous", "coordination"]
+categories = ["simulation", "algorithms"]
 readme = "README.md"
 
 [dependencies]
-# As crates are completed, add them here with path + version
+# Core crates
 agentropic-core = { version = "0.1.0", path = "../agentropic-core" }
 agentropic-messaging = { version = "0.1.0", path = "../agentropic-messaging" }
-
-# Coming soon
-# agentropic-cognition = { version = "0.1.0", path = "../agentropic-cognition" }
-# agentropic-patterns = { version = "0.1.0", path = "../agentropic-patterns" }
-# agentropic-runtime = { version = "0.1.0", path = "../agentropic-runtime" }
-# agentropic-deploy = { version = "0.1.0", path = "../agentropic-deploy", optional = true }
+agentropic-cognition = { version = "0.1.0", path = "../agentropic-cognition" }
+agentropic-patterns = { version = "0.1.0", path = "../agentropic-patterns" }
+agentropic-runtime = { version = "0.1.0", path = "../agentropic-runtime" }
 
 [dev-dependencies]
 tokio = { version = "1.0", features = ["full"] }
+tokio-test = "0.4"
+anyhow = "1.0"
 
-[features]
-default = []
-# deploy = ["agentropic-deploy"]
+[[example]]
+name = "quickstart"
+path = "examples/quickstart.rs"
+
+[[example]]
+name = "messaging"
+path = "examples/messaging.rs"
+
+[[example]]
+name = "swarm"
+path = "examples/swarm.rs"
+
+[[example]]
+name = "full_stack"
+path = "examples/full_stack.rs"
