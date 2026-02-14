@@ -37,7 +37,7 @@ Agentropic enables you to build software systems composed of **autonomous agents
 | **agentropic-cognition** | ✅ Complete | BDI architecture, reasoning, decision-making | [Link](https://github.com/agentropic/agentropic-cognition) |
 | **agentropic-patterns** | ✅ Complete | Hierarchy, swarm, market, coalition, holarchy, blackboard | [Link](https://github.com/agentropic/agentropic-patterns) |
 | **agentropic-runtime** | ✅ Complete | Async runtime, scheduler, supervisor, tracing | [Link](https://github.com/agentropic/agentropic-runtime) |
-| **agentropic** (facade) | ✅ Complete | Unified re-export of all crates | You're here |
+| **agentropic** (facade) | ✅ Complete | Unified re-export of all crates | Updating |
 | **agentropic-website** | ✅ Live | Project website | [agentropic.org](https://www.agentropic.org/) |
 
 **Core framework: Complete and compiling.** Now stabilizing toward 1.0.
